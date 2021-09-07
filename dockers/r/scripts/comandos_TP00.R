@@ -1,5 +1,5 @@
 # Cargo dataframe
-MPI_subnational = read.csv('https://raw.githubusercontent.com/dmuba/dmuba.github.io/master/Practicos/LAB01/MPI_subnational.csv', header = TRUE, sep = ',')
+MPI_subnational = read.csv('https://raw.githubusercontent.com/bdm-unlu/2021/main/TPs/TP00/MPI_subnational.csv', header = TRUE, sep = ',')
 
 # Nombres de variables
 names(MPI_subnational)
