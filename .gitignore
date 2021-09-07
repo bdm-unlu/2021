@@ -8,3 +8,11 @@ TPs/Consultas/ejemplo_fuzzy_match/01-extract/01-01-Medios.xls
 TPs/Consultas/ejemplo_fuzzy_match/03-load/Provincias-Procesadas.xls
 dockers/r/data/auto-mpg.data-original.txt
 dockers/r/data/europa.dat
+dockers/r/scripts/comandos_TP00.R
+dockers/r/scripts/graficos_adicionales-ggplot2.R
+dockers/r/scripts/TP00_ayuda_graficos.R
+dockers/r/scripts/TP00_ayuda_metricas.R
+dockers/r/scripts/TP00_iris_ayuda_graficas.R
+dockers/r/scripts/TP00_iris_ayuda_metricas.R
+dockers/r/scripts/comandos_TP00.R
+dockers/r/scripts/graficos_adicionales-ggplot2.R
