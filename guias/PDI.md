@@ -36,11 +36,27 @@ _Tips de utilización: En general, el proceso de diseño del Proceso ETL consist
 La lógica que explicamos antes no es únicamente válida para Pentaho Data Integration, sino que muchas de las herramientas de ETL respetan este paradigma. Otra opción interesante -que respeta este esquema de trabajo- de código abierto y con una versión gratuita es [Open Talend Studio](https://es.talend.com/products/talend-open-studio/).
 
 ## Utilización de PDI: Iniciando el camino hacia la integración de datos
-Para ingresar a Pentaho Data Integration, debemos descomprimir la carpeta descargada desde la web de [Hitachi Vantara](https://community.hitachivantara.com) y ejecutar el archivo spoon (.sh en Ubuntu y .bat en Windows) luego de configurar la variable JAVA_HOME como se explica [aquí.](https://github.com/bdm-unlu/2020/blob/master/guias/Java_configuracion.md)
+Para ingresar a Pentaho Data Integration, debemos descomprimir la carpeta descargada desde la web de [SourceForge](https://sourceforge.net/projects/pentaho/) y ejecutar el archivo spoon (.sh en Ubuntu y .bat en Windows) luego de configurar la variable JAVA_HOME como se explica [aquí.](https://github.com/bdm-unlu/2020/blob/master/guias/Java_configuracion.md)
+
+Nota Ubuntu 20.04
+
+Para el correcto funcionamiento de PDI en Ubuntu 20.04, es necesario instalar la libreria _libwebkitgtk-1.0-0_ que no se encuentra por defecto en el repositorio (se utilizó hasta Ubuntu 18.04). Para ello, debemos realizar lo siguiente desde una terminal para poder instalarla:
+
+```
+# añado el repositorio de bionic
+echo "deb http://cz.archive.ubuntu.com/ubuntu bionic main universe" > /etc/apt/sources.list.d/pdi.list
+sudo apt update
+# instalo la libreria
+sudo apt install libwebkitgtk-1.0-0
+# elimino el repositorio y dejo todo como estaba
+sudo rm /etc/apt/sources.list.d/pdi.list
+sudo apt update
+```
+
+En la imagen se puede ver la distribución del home de la herramienta:
 
 ![Pantalla PDI](./imgs/PDI-screen.png)
 
-En la imagen se puede ver la distribución del home de la herramienta:
 - A la izquierda se encuentra el panel de componentes (o potenciales nodos) con las diferentes funcionalidades que provee PDI para el consumo, transformación y carga de datos en las transformaciones y trabajos.
 - En el centro, si bien en la imagen precedente se observa el home de bienvenida, estará el paño en blanco que representa el entorno donde modelaremos nuestro grafos incorporando los steps y hops.
 - En la parte superior hay algunas opciones para la creación de archivos y conexión a orígenes de datos.
