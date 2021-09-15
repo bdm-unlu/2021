@@ -36,7 +36,7 @@ _Tips de utilización: En general, el proceso de diseño del Proceso ETL consist
 La lógica que explicamos antes no es únicamente válida para Pentaho Data Integration, sino que muchas de las herramientas de ETL respetan este paradigma. Otra opción interesante -que respeta este esquema de trabajo- de código abierto y con una versión gratuita es [Open Talend Studio](https://es.talend.com/products/talend-open-studio/).
 
 ## Utilización de PDI: Iniciando el camino hacia la integración de datos
-Para ingresar a Pentaho Data Integration, debemos descomprimir la carpeta descargada desde la web de [SourceForge](https://sourceforge.net/projects/pentaho/) y ejecutar el archivo spoon (.sh en Ubuntu y .bat en Windows) luego de configurar la variable JAVA_HOME como se explica [aquí.](https://github.com/bdm-unlu/2020/blob/master/guias/Java_configuracion.md)
+Para ingresar a Pentaho Data Integration, debemos descomprimir la carpeta descargada desde la web de [SourceForge](https://sourceforge.net/projects/pentaho/) y ejecutar el archivo spoon (.sh en Ubuntu y .bat en Windows) luego de configurar la variable JAVA_HOME como se explica [aquí.](https://github.com/bdm-unlu/2021/blob/master/guias/Java_configuracion.md)
 
 Nota Ubuntu 20.04
 
@@ -99,7 +99,7 @@ Como puede verse en la imagen anterior, además de la referencia a la transforma
 Asimismo, podemos ver otro concepto importante, la existencia de hops por la positiva (verdes) y hops por la negativa (rojos). Estos pueden entenderse como una bifurcación, siendo en este caso que cuando la _Transformation_ se haya ejecutado correctamente el flujo seguirá por el hop verde y terminará el proceso mientras que, cuando falle, el mismo ejecutará el hop rojo y enviará un correo al administrador.
 
 
-Hasta aquí un breve instructivo con la utilización de Pentaho Data Integration, los archivos de datos utilizados, así como la transformation y el job definidos podés descargarlo de [acá](https://github.com/bdm-unlu/2020/blob/master/guias/utiles/Ejemplo-Proceso_ETL.zip).
+Hasta aquí un breve instructivo con la utilización de Pentaho Data Integration, los archivos de datos utilizados, así como la transformation y el job definidos podés descargarlo de [acá](https://github.com/bdm-unlu/2021/blob/master/guias/utiles/Ejemplo-Proceso_ETL.zip).
 
 ## Resumen
 
