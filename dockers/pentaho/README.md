@@ -32,11 +32,9 @@ Para publicar un cubo a Pentaho:
 
 https://sourceforge.net/projects/mondrian/files/schema%20workbench/3.14.0/
 
-**JRE necesario**
+**JRE/JDK necesario**
 
-Para ejecutar el Schema Workbench es necesario tener instalado el JRE
-
-```sudo apt install default-jre```
+Para ejecutar el Schema Workbench es necesario tener instalado Java. Para la instalación, se puede seguir la [Guía](https://github.com/bdm-unlu/2020/blob/master/guias/Java_configuracion.md).
 
 ## Pentaho Data Integration
 
