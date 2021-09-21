@@ -16,7 +16,7 @@ Al phpMyAdmin se accede desde: http://localhost:6030
 - USUARIO: root
 - CLAVE: bdm
 
-Para conectar la base de datos tanto desde el pgAdmin4 como desde Pentaho, se debe usar el host *pentaho_mysql* y el puerto *3306*.
+Para conectar la base de datos tanto desde el phpMyAdmin como desde Pentaho, se debe usar el host *pentaho_mysql* y el puerto *3306*.
 
 ## Schema Workbench
 
