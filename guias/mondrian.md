@@ -51,7 +51,7 @@ Para el abordaje de los temas anteriores, vamos a trabajar a partir de un _esque
 
 ![texto](./imgs/sw_2.png)
 
-__Muy importante:__ En este ejemplo, incorporaremos las dimensiones fuera del Cubo que vamos a definir dado que esto será beneficioso en esquemas más complejos en los que necesitamos más de un cubo y es probable que necesitemos compartir las dimensiones. Si definieramos las dimensiones dentro del cubo, deberíamos definirlas cada vez que creemos uno nuevo. 
+__Muy importante:__ En este ejemplo, incorporaremos las dimensiones fuera del Cubo que vamos a definir dado que esto será beneficioso en esquemas más complejos en los que necesitamos más de un cubo y es probable que necesitemos compartir las dimensiones. En este último caso, deberíamos definirlas cada vez que creemos uno nuevo. 
 Si quisieramos definir las dimensiones dentro del cubo, previamente a la definición de las mismas crearemos el cubo a partir de la opción "Add cube" que aparece cuando presionamos click derecho sobre el Schema.
 
 4. Realizada la salvedad anterior, vamos a trabajar directamente sobre el Schema (para luego poder compartir las dimensiones). Iniciamos la definición a partir de las dimensiones:
