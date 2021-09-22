@@ -58,7 +58,7 @@ Si quisieramos definir las dimensiones dentro del cubo, previamente a la definic
 
 ![texto](./imgs/sw_3.png)
 
-5. Dado que podemos definir dimensiones jerárquicas -como vimos en la clase teóricas-, por defecto Mondrian crea una jerarquía. En este caso vamos a dejarla con el nombre por defecto:
+5. Dado que podemos definir dimensiones jerárquicas -como vimos en la clase teórica-, por defecto Mondrian crea una jerarquía. En este caso vamos a dejarla con el nombre por defecto:
 
 ![texto](./imgs/sw_4.png)
 
