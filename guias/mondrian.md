@@ -15,6 +15,7 @@ Para empezar con el desarrollo del cubo es necesario:
 - Configurar las variables de entorno JAVA_HOME (JDK) y JRE_HOME (JRE) ([Anexo I: Guía de Instalación Pentaho](https://github.com/bdm-unlu/2020/blob/master/guias/Java_configuracion.md)).
 - Descargar Mondrian Schema Workbench.
 - Instalar un SGBD relacional y descargar su correspondiente driver (en este ejemplo vamos a utilizar MySQL).
+- Descargar en la carpeta _/drivers_ de Mondrian el jar con el driver para la conexión con la base de datos relacional. Aquí está el listado de [JDBC Drivers para Pentaho](https://help.hitachivantara.com/Documentation/Pentaho/8.0/Setup/JDBC_Drivers_Reference).
 
 ### Ejecución de Schema Workbench
 
