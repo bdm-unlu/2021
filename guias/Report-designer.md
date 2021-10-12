@@ -4,7 +4,7 @@
 Report Designer es la herramienta de reporting de la Suite Pentaho y es utilizada para la creación de reportes ad hoc. Dado que la definición de la estructura del reporte se realiza de forma separada de la definición de los datos del contenido, tiene la ventaja con respecto a los reportes ad hoc tradicionales que cualquier modificación en el origen de datos será reflejada en el informe de forma automática. Podemos acceder a información mas detallada de la herramienta ingresando [acá.](https://help.pentaho.com/Documentation/8.1/Products/Report_Designer)
 
 ## Creación de Reportes con Report Designer
-Para ingresar a Report Designer, debemos descomprimir la carpeta descargada desde el [Sitio Web](https://sourceforge.net/projects/pentaho/files/Report%20Designer/7.1/) y ejecutar el archivo report-designer (.sh en Ubuntu y .bat en Windows) luego de configurar la variable JAVA_HOME como se explica [aquí.](https://github.com/bdm-unlu/2020/blob/master/guias/Java_configuracion.md)
+Para ingresar a Report Designer, debemos descomprimir la carpeta descargada desde el [Sitio Web](https://sourceforge.net/projects/pentaho/files/Report%20Designer/7.1/) y ejecutar el archivo report-designer (.sh en Ubuntu y .bat en Windows) luego de configurar la variable JAVA_HOME como se explica [aquí.](https://github.com/bdm-unlu/2021/blob/master/guias/Java_configuracion.md)
 
 ![Pantalla Report Designer](./imgs/rd-screen.png)
 
